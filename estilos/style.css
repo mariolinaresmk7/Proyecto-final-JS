@@ -1,0 +1,53 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+  }
+  body {
+    background: #3CA55C;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #B5AC49, #3CA55C);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #B5AC49, #3CA55C);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  .contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+  }
+  .ctx{
+    width: 350px;
+    height: 350px;
+  }
+  .btnGuardar{
+    display: none;
+  }
+  .titulo{
+    display: none;
+  }
+  .tabla{
+    display: none;
+   
+  }
+  .swal-text {
+    padding: 17px;
+    display: block;
+    margin: 22px;
+    font-family: 'Quicksand', sans-serif ;
+    font-size: 20;
+    color: black;
+    text-align: center;
+  }
+  .swal-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif ;
+    background-color: #016170;
+    color:#ffffff;
+    font-size: 25px;
+  
+  }
+  .swal-modal {
+    background-color:#6bbd99;
+    border: 0.1px solid white;
+  }
