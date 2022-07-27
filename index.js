@@ -85,7 +85,7 @@ function guardar(e) {
     const activeTNA = localStorage.getItem('TNA');
     const activeTotal = localStorage.getItem('total');
     const activeCouta = localStorage.getItem('couta')
-    const userss = {
+    const data = {
         Name: activeName,
         LastName: activeLastName,
         MontoPrestamo: activeMonto,
@@ -94,22 +94,23 @@ function guardar(e) {
         ImporteCouta: activeCouta,
         totalAPagar: activeTotal,
     }
+    swal({
+        title:"Guardar Simulacion",
+        text:"Su simulación fue guardada exitosamente",
+        icon:"success",
+        buttons: false
+    }) 
     fetch('  http://localhost:3000/users', {
             method: 'POST',
-            body: JSON.stringify(userss),
+            body: JSON.stringify(data),
             headers: {
                 'content-type': 'application/json;  charset=UTf-8'
             }
         })
-        .then((response) => response.json())
+        .then((response) => (response.json()))
         .then((data) => {
             console.log(data);
-            swal({
-                title:"Guardar Simulacion",
-                text:"Su simulación fue guardada exitosamente",
-                icon:"success",
-                buttons: false
-            }) 
+            
            /*  let storage = document.getElementById('storage');
             storage.innerHTML = `
             <h3 class="text-center text-white">Bienvenido</h3>

@@ -1,17 +1,17 @@
 {
   "users": [
     {
-      "id": 1,
-      "Name": "",
-      "LastName": "typicode",
-      "MontoPrestamo": "",
-      "CantidadCoutas": "",
-      "T_N_A": "",
-      "ImporteCouta": "",
-      "totalAPagar": ""
+      "Name": "exequiel",
+      "LastName": "linares",
+      "MontoPrestamo": "1222",
+      "CantidadCoutas": "12",
+      "T_N_A": "12",
+      "ImporteCouta": "108.57",
+      "totalAPagar": "1302.88",
+      "id": 1
     },
     {
-      "Name": "exequiel",
+      "Name": "mario",
       "LastName": "linares",
       "MontoPrestamo": "1222",
       "CantidadCoutas": "24",
@@ -21,24 +21,14 @@
       "id": 2
     },
     {
-      "Name": "alejandra",
-      "LastName": "linares",
-      "MontoPrestamo": "1234",
-      "CantidadCoutas": "24",
-      "T_N_A": "12",
-      "ImporteCouta": "54.69",
-      "totalAPagar": "1312.60",
-      "id": 3
-    },
-    {
       "Name": "mario",
       "LastName": "linares",
-      "MontoPrestamo": "36000",
+      "MontoPrestamo": "1222",
       "CantidadCoutas": "12",
-      "T_N_A": "23",
-      "ImporteCouta": "3386.75",
-      "totalAPagar": "40640.97",
-      "id": 4
+      "T_N_A": "12",
+      "ImporteCouta": "108.57",
+      "totalAPagar": "1302.88",
+      "id": 3
     }
   ]
 }
