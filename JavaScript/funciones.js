@@ -139,7 +139,7 @@ function proceso(montoDelCredito, cantidadDeCoutas, T_N_A) {
         `
         tabla.append(tablita)
     }
-
+   
 }
 
 //FUNCION PARA SIMULAR UN POST A UNA API (json.placeholder)
