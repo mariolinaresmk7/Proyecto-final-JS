@@ -60,7 +60,7 @@
   #result-text{
     display: flex;
     justify-content: center;
-    align-items: center;
+ 
     max-width: max-content;
     border-radius: 5%;
     color: white;
