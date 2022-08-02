@@ -21,7 +21,7 @@
 <body>
     <div class="row contenedor">
         <form class="col-lg-4 mt-3">
-            <h3 class="mt-3 ms-5 ">Simulador de prestamo</h3>
+            <h3 class="mt-3 ms-5 " style="font-weight:bold">Simulador de prestamo</h3>
             <div class="cliente">
                 <input type="text" id="iname" placeholder="Nombre" class="form-control mt-3 mb-3 " aria-label="Default">
                 <input type="text" id="ilastname" placeholder="Apellido" class="form-control mb-3" aria-label="Default">
@@ -55,12 +55,15 @@
     </div>
     <div class="contenedor">
         <div class="col-lg-4 " id="resultado">
-            <h2 class="text-center titulo">Resultado de simulación</h2>
-            <div class="ctx">
+            <h2 class="text-center titulo" style="border-bottom:1px solid;">Resultado de simulación</h2>
+            <div class="ctx mt-5">
                 <canvas id="myChart"></canvas>
             </div>
         </div>
-        <div class="col-lg-6 tabla">
+        <div class="col-lg-3 mt-5" id="result-text">
+            
+        </div>
+        <div class="col-lg-5 tabla">
             <table id="tablas" class="table">
                 <thead>
                     <tr>
@@ -76,15 +79,20 @@
                 </tbody>
             </table>
         </div>
+        
     </div>
 
     <div class="btnGuardar col-lg-6 offset-6">
         <input type="submit" value="Guardar" id="guardar" class="btn btn-secondary mt-3">
     </div>
 
-    <script src="funciones.js"></script>
-    <script src="index.js"></script>
-    <script src="moment.js"></script>
+<div class="comentarios text-center mt-5" id="cargar1" >
+</div>
+
+    <script src="JavaScript/refer.js"></script>
+    <script src="JavaScript/funciones.js"></script>
+    <script src="JavaScript/index.js"></script>
+    <script src="JavaScript/moment.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="Javascript/moment.js"></script>
